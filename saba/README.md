@@ -4,7 +4,7 @@
 
 ## Description
 
-ƒR[ƒhã‚É‘‚©‚ê‚½ƒXƒPƒWƒ…[ƒ‹‚É]‚Á‚ÄSlack‚É“Še‚ðs‚¢‚Ü‚·B  
+ƒXƒNƒŠƒvƒgã‚ÌƒXƒPƒWƒ…[ƒ‹‚É]‚Á‚ÄSlack‚É“Še‚ðs‚¢‚Ü‚·B  
 Œ¾Œê‚ÍGoogle Apps Script‚Å‚·B  
 ‚Ü‚½A‚½‚Ü[‚ÉŽI‚ª‚Ú‚â‚«‚Ü‚·B  
   
@@ -12,15 +12,15 @@ Google Apps Script‚ÌƒgƒŠƒK[‚ÅŽžŠÔŽw’è‚ª‚Å‚«‚È‚¢‚½‚ßA1•ª‚²‚Æ‚É“®‚©‚µƒXƒPƒWƒ…[ƒ
 
 ## Usage
 
-1. ŽI‚É“Še‚³‚¹‚½‚¢ƒ`[ƒ€‚ÌSlack‚ðŠJ‚«A¶‘¤ƒƒjƒ…[‚ÌuApps & integrationsv‚ð‰Ÿ‰º‚µ‚Ü‚·B
-2. uIncoming WebHooksv‚ðŒŸõ‚µAV‹Kì¬‚ÅWebhook URL‚ðŽæ“¾‚µ‚Ü‚·B
-3. `Bot/sabaBot.gs`‚Ì•Ï”url‚ÉWebhook URL‚ðÝ’è‚µ‚Ü‚·B  
+* ŽI‚É“Še‚³‚¹‚½‚¢ƒ`[ƒ€‚ÌSlack‚ðŠJ‚«A¶‘¤ƒƒjƒ…[‚ÌuApps & integrationsv‚ð‰Ÿ‰º‚µ‚Ü‚·B
+* uIncoming WebHooksv‚ðŒŸõ‚µAV‹Kì¬‚ÅWebhook URL‚ðŽæ“¾‚µ‚Ü‚·B
+* `Bot/sabaBot.gs`‚Ì•Ï”url‚ÉWebhook URL‚ðÝ’è‚µ‚Ü‚·B
 ```
 function postSlack(payload) {
   // POSTæ
   var url = "POSTæURL‚ðÝ’è‚µ‚Ä‚­‚¾‚³‚¢";
 ```
-4. `Bot/sabaBot.gs`‚Ébot–¼‚â“Šeæƒ`ƒƒƒ“ƒlƒ‹‚ðÝ’è‚µ‚Ü‚·B  
+* `Bot/sabaBot.gs`‚Ébot–¼‚â“Šeæƒ`ƒƒƒ“ƒlƒ‹‚ðÝ’è‚µ‚Ü‚·B
 ```
 function postSlack(payload) {
 function createPayloadBase(text) {
@@ -31,13 +31,13 @@ function createPayloadBase(text) {
     "text" : text
   };
 ```
-5. Googleƒhƒ‰ƒCƒu‚ðŠJ‚«A‰EƒNƒŠƒbƒN¨u‚»‚Ì‘¼v¨uƒAƒvƒŠ‚ð’Ç‰Áv‚ÅuGoogle Apps Scriptv‚ð’Ç‰Á‚µ‚Ü‚·B
-6. Googleƒhƒ‰ƒCƒu‚Ì”CˆÓ‚ÌƒfƒBƒŒƒNƒgƒŠ‚ðŠJ‚«A‰EƒNƒŠƒbƒN¨u‚»‚Ì‘¼v¨uGoogle Apps Scriptv‚Å•ÒW‰æ–Ê‚ðŠJ‚«‚Ü‚·B
-7. `Bot/sabaBot.gs`‚Ì“à—e‚ð‘S‚ÄƒRƒs[‚µA•ÒW‰æ–Ê‚Éƒy[ƒXƒg‚µ‚Ü‚·B
-8. ã•”ƒƒjƒ…[uƒŠƒ\[ƒXv¨uŒ»Ý‚ÌƒvƒƒWƒFƒNƒg‚ÌƒgƒŠƒK[v‚æ‚èƒgƒŠƒK[‚ðì¬‚µ‚Ü‚·B  
+* Googleƒhƒ‰ƒCƒu‚ðŠJ‚«A‰EƒNƒŠƒbƒN¨u‚»‚Ì‘¼v¨uƒAƒvƒŠ‚ð’Ç‰Áv‚ÅuGoogle Apps Scriptv‚ð’Ç‰Á‚µ‚Ü‚·B
+* Googleƒhƒ‰ƒCƒu‚Ì”CˆÓ‚ÌƒfƒBƒŒƒNƒgƒŠ‚ðŠJ‚«A‰EƒNƒŠƒbƒN¨u‚»‚Ì‘¼v¨uGoogle Apps Scriptv‚Å•ÒW‰æ–Ê‚ðŠJ‚«‚Ü‚·B
+* `Bot/sabaBot.gs`‚Ì“à—e‚ð‘S‚ÄƒRƒs[‚µA•ÒW‰æ–Ê‚Éƒy[ƒXƒg‚µ‚Ü‚·B
+* ã•”ƒƒjƒ…[uƒŠƒ\[ƒXv¨uŒ»Ý‚ÌƒvƒƒWƒFƒNƒg‚ÌƒgƒŠƒK[v‚æ‚èƒgƒŠƒK[‚ðì¬‚µ‚Ü‚·B  
 `myFunction`‚ðƒCƒxƒ“ƒguŽžŠÔŽå“±Œ^v‚Å1•ª‚²‚Æ‚ÉŽÀs‚·‚é‚æ‚¤Ý’è‚µ‚Ü‚·B
-9. ƒXƒNƒŠƒvƒg‚ð•Û‘¶‚µ‚Ü‚·B
-10. “Še‚³‚ê‚é‚Ü‚Å‘Ò‚¿‚Ü‚µ‚å‚¤I
+* ƒXƒNƒŠƒvƒg‚ð•Û‘¶‚µ‚Ü‚·B
+* “Še‚³‚ê‚é‚Ü‚Å‘Ò‚¿‚Ü‚µ‚å‚¤I
 
 
 ## Install
