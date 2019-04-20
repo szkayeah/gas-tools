@@ -1,3 +1,2 @@
-# Bot
-
-作成したbotの置き場です。
+# gas-tools
+Google Apps Script (GAS) 製のツール
